@@ -1,0 +1,26 @@
+{
+  "name": "dom-code-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  },
+  "type": "module",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "figlet": "^1.7.0"
+  },
+  "bin": {
+    "dcg": "./dist/app.js"
+  }
+}
